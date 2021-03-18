@@ -11,13 +11,13 @@ if (navBtn && nav && htmlBody) {
 			if (navActive) {
 				nav.style.left = "-100%";
 				htmlBody.style.overflow = "auto";
-				navBtnImg.src = "/images/icon-hamburger.svg";
+				navBtnImg.src = "./images/icon-hamburger.svg";
 				navActive = false;
 			} else {
 				window.scrollTo(0, 0);
 				nav.style.left = "0";
 				htmlBody.style.overflow = "hidden";
-				navBtnImg.src = "/images/icon-close.svg";
+				navBtnImg.src = "./images/icon-close.svg";
 				navActive = true;
 			}
 		});

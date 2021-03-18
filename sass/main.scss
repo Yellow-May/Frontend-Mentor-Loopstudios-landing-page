@@ -28,12 +28,12 @@ body {
 	.hero {
 		width: 100%;
 		height: auto;
-		background: url(/images/desktop/image-hero.jpg) left top / cover
+		background: url(./images/desktop/image-hero.jpg) left top / cover
 			no-repeat;
 		padding: 3.5rem 10% 10rem 10%;
 
 		@media (max-width: $xs) {
-			background: url(/images/mobile/image-hero.jpg) left top / cover
+			background: url(./images/mobile/image-hero.jpg) left top / cover
 				no-repeat;
 			padding: 2rem 5% 8rem 5%;
 		}
@@ -360,59 +360,59 @@ body {
 					}
 
 					&:nth-child(1) {
-						background-image: url(/images/desktop/image-deep-earth.jpg);
+						background-image: url(./images/desktop/image-deep-earth.jpg);
 
 						@media (max-width: $xs) {
-							background-image: url(/images/mobile/image-deep-earth.jpg);
+							background-image: url(./images/mobile/image-deep-earth.jpg);
 						}
 					}
 					&:nth-child(2) {
-						background-image: url(/images/desktop/image-night-arcade.jpg);
+						background-image: url(./images/desktop/image-night-arcade.jpg);
 
 						@media (max-width: $xs) {
-							background-image: url(/images/mobile/image-night-arcade.jpg);
+							background-image: url(./images/mobile/image-night-arcade.jpg);
 						}
 					}
 					&:nth-child(3) {
-						background-image: url(/images/desktop/image-soccer-team.jpg);
+						background-image: url(./images/desktop/image-soccer-team.jpg);
 
 						@media (max-width: $xs) {
-							background-image: url(/images/mobile/image-soccer-team.jpg);
+							background-image: url(./images/mobile/image-soccer-team.jpg);
 						}
 					}
 					&:nth-child(4) {
-						background-image: url(/images/desktop/image-grid.jpg);
+						background-image: url(./images/desktop/image-grid.jpg);
 
 						@media (max-width: $xs) {
-							background-image: url(/images/mobile/image-grid.jpg);
+							background-image: url(./images/mobile/image-grid.jpg);
 						}
 					}
 					&:nth-child(5) {
-						background-image: url(/images/desktop/image-from-above.jpg);
+						background-image: url(./images/desktop/image-from-above.jpg);
 
 						@media (max-width: $xs) {
-							background-image: url(/images/mobile/image-from-above.jpg);
+							background-image: url(./images/mobile/image-from-above.jpg);
 						}
 					}
 					&:nth-child(6) {
-						background-image: url(/images/desktop/image-pocket-borealis.jpg);
+						background-image: url(./images/desktop/image-pocket-borealis.jpg);
 
 						@media (max-width: $xs) {
-							background-image: url(/images/mobile/image-pocket-borealis.jpg);
+							background-image: url(./images/mobile/image-pocket-borealis.jpg);
 						}
 					}
 					&:nth-child(7) {
-						background-image: url(/images/desktop/image-curiosity.jpg);
+						background-image: url(./images/desktop/image-curiosity.jpg);
 
 						@media (max-width: $xs) {
-							background-image: url(/images/mobile/image-curiosity.jpg);
+							background-image: url(./images/mobile/image-curiosity.jpg);
 						}
 					}
 					&:nth-child(8) {
-						background-image: url(/images/desktop/image-fisheye.jpg);
+						background-image: url(./images/desktop/image-fisheye.jpg);
 
 						@media (max-width: $xs) {
-							background-image: url(/images/mobile/image-fisheye.jpg);
+							background-image: url(./images/mobile/image-fisheye.jpg);
 						}
 					}
 				}
