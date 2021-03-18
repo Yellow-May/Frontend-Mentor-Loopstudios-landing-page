@@ -1,0 +1,28 @@
+//Primary
+$White: hsl(0, 0%, 100%);
+$Black: hsl(0, 0%, 0%);
+$Dark-Gray: hsl(0, 0%, 55%);
+$Very-Dark-Gray: hsl(0, 0%, 41%);
+
+//Screen
+$xs: 480px;
+$s: 640px;
+$m: 960px;
+$l: 1024px;
+
+// reset
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
